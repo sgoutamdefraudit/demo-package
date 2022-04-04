@@ -38,6 +38,6 @@ declare module "*.svg" {
   export default src;
 }
 
-declare module "*.svg" {
+declare module "@goutameval/eval-package" {
   export const publicApiFunction: any;
 }
