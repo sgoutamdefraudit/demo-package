@@ -1,9 +1,17 @@
 {
-  "extends": "ts-config-single-spa",
-  "files": ["src/eval-eval-package.ts"],
+  "extends": "./base",
+  "files": [
+    "src/eval-eval-package.ts"
+  ],
   "compilerOptions": {
+    "preserveConstEnums": true,
+    "declaration": true,
     "declarationDir": "dist"
   },
-  "include": ["src/**/*"],
-  "exclude": ["src/**/*.test*"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "src/**/*.test*"
+  ]
 }
