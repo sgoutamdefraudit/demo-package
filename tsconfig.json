@@ -6,7 +6,8 @@
   "compilerOptions": {
     "preserveConstEnums": true,
     "declaration": true,
-    "declarationDir": "dist"
+    "declarationDir": "dist",
+    "target": "es6",
   },
   "include": [
     "src/**/*"
