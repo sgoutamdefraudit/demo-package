@@ -1,6 +1,6 @@
 {
   "name": "@goutameval/eval-package",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "demo package",
   "main": "src/eval-eval-package.ts",
   "bin": "src/eval-eval-package.ts",
